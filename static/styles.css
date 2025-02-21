@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0a;
+    border: 0;
+    color: #fff;
+    font-family: 'Hack', monospace;
+}
+
+a {
+  color: #eee; 
+  text-decoration: none;
+}
+
+p {
+  color: #eee;
+}
+
+article a {
+  text-decoration: underline;
+} 
+
+article a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  color: #0a0a0a;
+}
+
+
+/* --- General Document Style --- */
+.wrapper {
+  max-width: 640px;
+  width: 90%;
+  margin: 0 auto 45px auto;
+  padding: 0;
+}
+
+.wrapper img {
+  max-width: 100%;
+}
+
+
+/* --- Post Titling ----*/
+title_wrapper {
+  width: 90%;
+  margin: 5px auto 25px auto;
+}
+
+.title_wrapper .title {
+  font-size: 2rem;
+  display: block;
+  line-height: 3rem;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  color: #fff;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.date {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: #999;
+}
+
+.title_wrapper .meta:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* --- Post Content --- */
+.post {
+  font-family: 'Hack', monospace;
+  font-size: 1.25rem;
+}
+
+.post p {
+  margin-bottom: 30px;
+  line-height: 1.75rem;
+}
+
+.post ul li {
+  line-height: 1.75rem;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+}
+
+
+/* --- Footer ---*/
+footer {
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+footer .footer_msg {
+  font-size: 1.2rem;
+  color: #8a8a8a;
+  text-align: center;
+}
+
+.post_footer {
+  display: inline-block;
+  width: 100%;
+}
+
+.post_footer hr,
+.post_footer {
+  margin-bottom: 25px;
+}
